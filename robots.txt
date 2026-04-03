@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gulshan-singh-gs.github.io/The-Apex-Syndicate/sitemap.xml
