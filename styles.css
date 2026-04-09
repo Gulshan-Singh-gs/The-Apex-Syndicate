@@ -77,6 +77,35 @@ nav a {
 nav a:hover {
     color: var(--text-main);
 }
+/*----Image Section----*/
+
+        .button-demo-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            gap: 40px;
+            text-align: center;
+            background: radial-gradient(circle at 50% 50%, rgba(138, 3, 3, 0.15) 0%, transparent 60%);
+            padding: 50px 20px;
+        }
+        
+        .instructions {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin-bottom: 20px;
+            animation: fadeUp 1.2s var(--premium-ease) 0.3s forwards;
+            opacity: 0;
+        }
+
+        .image-gallery {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
 
 /* --- HERO SECTION ANIMATIONS --- */
 .hero {
@@ -363,31 +392,3 @@ footer {
     font-size: 0.8rem;
     letter-spacing: 1px;
 }
-
-        .button-demo-container {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            gap: 40px;
-            text-align: center;
-            background: radial-gradient(circle at 50% 50%, rgba(138, 3, 3, 0.15) 0%, transparent 60%);
-            padding: 50px 20px;
-        }
-        
-        .instructions {
-            color: var(--text-muted);
-            font-size: 1.1rem;
-            max-width: 600px;
-            margin-bottom: 20px;
-            animation: fadeUp 1.2s var(--premium-ease) 0.3s forwards;
-            opacity: 0;
-        }
-
-        .image-gallery {
-            display: flex;
-            gap: 30px;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
